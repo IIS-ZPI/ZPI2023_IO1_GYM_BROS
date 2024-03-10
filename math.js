@@ -1,7 +1,7 @@
-const arithmeticMod = (dividend, divisor) => {
-  if (divisor === 0) {
+const arithmeticMod = (a, b) => {
+  if (b === 0) {
     throw new Error("Cannot divide by zero");
   }
 
-  return dividend % divisor;
+  return a % b;
 };
