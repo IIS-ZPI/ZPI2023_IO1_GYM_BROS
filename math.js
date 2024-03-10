@@ -1,3 +1,7 @@
+const arithmeticsMult = (a, b) => {
+  return a * b;
+};
+
 const arithmeticsAdd = (a, b) => {
     return a + b;
 };
