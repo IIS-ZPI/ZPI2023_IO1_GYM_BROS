@@ -1,6 +1,6 @@
-const arithmeticsDivide = (a, b) => {
+const arithmeticsDiv = (a, b) => {
     if (b === 0) {
         throw new Error('Cannot divide by zero');
     }
-    a / b;
+    return a / b;
 };
