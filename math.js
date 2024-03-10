@@ -4,3 +4,7 @@ const arithmeticsDiv = (a, b) => {
     }
     return a / b;
 };
+
+const arithmeticsDiff = (a, b) => {
+    return a - b;
+};
