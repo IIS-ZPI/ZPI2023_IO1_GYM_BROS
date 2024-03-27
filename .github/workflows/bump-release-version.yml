@@ -1,7 +1,7 @@
 on:
     push:
         branches:
-            - 29-setup-automatic-version-bump
+            - release
 
 permissions:
     contents: write
