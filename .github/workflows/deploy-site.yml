@@ -2,9 +2,7 @@ name: Deploy static content to Pages
 
 on:
     push:
-        branches: ["develop"]
-    pull_request:
-        branches: ["develop"]
+        branches: ["release"]
 
     workflow_dispatch:
 
@@ -13,13 +11,11 @@ permissions:
     pages: write
     id-token: write
 
-# Allow one concurrent deployment
 concurrency:
     group: "pages"
     cancel-in-progress: true
 
 jobs:
-    # Single deploy job since we're just deploying
     deploy:
         environment:
             name: github-pages
@@ -42,7 +38,6 @@ jobs:
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:
-                  # Upload dist folder
                   path: "./dist"
             - name: Deploy to GitHub Pages
               id: deployment
