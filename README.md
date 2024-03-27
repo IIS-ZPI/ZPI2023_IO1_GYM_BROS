@@ -1,11 +1,3 @@
-<!-- • plik readme.md wraz z informacjami o:
-i. technologii realizacji projektu,
-ii. miejscu wdrożenia oprogramowania lub sposobie uruchamiania,
-iii. lokalizacji (folder) dokumentacji projektowej,
-iv. lokalizacji backlog’ów,
-v. sposobie realizacji CI wraz z automatyzacją testów jednostkowych,
-vi. lokalizacji raportów z procedury testowania i naprawiania oprogramowania -->
-
 GYM BROS
 
 1. Project realization technology:
