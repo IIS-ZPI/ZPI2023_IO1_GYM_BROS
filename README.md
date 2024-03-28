@@ -2,12 +2,12 @@
 
 ## Project realization technology:
 
-- React.js - a JavaScript library for building user interfaces
-- TypeScript - a strict syntactical superset of JavaScript
-- Vite - a build tool that aims to provide a faster and leaner development experience for modern web projects
-- Jest - a JavaScript Testing Framework
-- GitHub Actions - a CI/CD tool that helps automate the software development process
-- GitHub Pages - a static site hosting service.
+- React.js - JavaScript library for building user interfaces
+- TypeScript - strict syntactical superset of JavaScript
+- Vite - build tool that aims to provide a faster and leaner development experience for modern web projects
+- Jest - JavaScript Testing Framework
+- GitHub Actions - CI/CD tool that helps automate the software development process
+- GitHub Pages - static site hosting service.
 
 ## Deployment
 
